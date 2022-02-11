@@ -1,10 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Festive&family=Lato:wght@400;700&family=Merriweather:ital,wght@1,300&family=Noto+Sans+Mono:wght@300&family=Poppins:wght@500;600&display=swap');
+
 .App {
 	max-width: 860px;
 	margin: 40px auto;
 }
 
+.App p {
+	text-align: center;
+	justify-content: center;
+	background-color: #9c264d;
+	color: #fff;
+	font-size: 2em;
+	border-radius: 20px;
+}
+
+.App h1 {
+	text-align: center;
+	justify-content: center;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: 'Merriweather', serif;
+	text-decoration-line: underline;
+	text-decoration-color: #b43929;
+}
+
+.App button {
+	text-align: center;
+	justify-content: center;
+}
+
 button {
-	background: none;
+	background-color: #7a1033;
 	border: 2px solid #fff;
 	padding: 6px 12px;
 	border-radius: 4px;
@@ -15,6 +41,12 @@ button {
 }
 
 button:hover {
+	transition: 0.6s ease-out;
+	background-color: #c23866;
+	color: #fff;
+}
+button:focus {
+	transition: 0.6s ease-out;
 	background-color: #c23866;
 	color: #fff;
 }
